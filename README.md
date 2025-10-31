@@ -1,7 +1,7 @@
-# 🧠 Machine Learning Regression Project
+# 🧠 Rainfall Prediction Across Indonesia IKN
 
 ## 📘 Overview
-This repository contains a comprehensive machine learning regression workflow developed in Jupyter Notebook.  
+This repository contains a comprehensive machine learning project for **Rainfall Prediction Across Indonesia IKN**, developed in Jupyter Notebook.  
 The project covers **end-to-end data acquisition, preprocessing, feature engineering, model training, hyperparameter optimization, and evaluation**.  
 It leverages various regression models (Linear Regression, Random Forest, XGBoost, LightGBM, CatBoost, AutoGluon) to compare performance and achieve optimal predictive accuracy.
 
@@ -44,8 +44,8 @@ datetime
 ## ⚙️ Installation
 Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/kbdp1305/rainfall-prediction-ikn.git
+cd rainfall-prediction-ikn
 pip install -r requirements.txt
 ```
 
@@ -71,7 +71,7 @@ jupyter notebook "Salinan_dari_Kopie_van_dataquest (1).ipynb"
 ```
 
 Or execute all cells programmatically:
-```python
+```bash
 jupyter nbconvert --to notebook --execute "Salinan_dari_Kopie_van_dataquest (1).ipynb" --output "output.ipynb"
 ```
 
@@ -89,14 +89,16 @@ Results are visualized with `matplotlib` plots and summary tables.
 
 ## 🏁 Conclusion
 This project demonstrates a complete regression pipeline, including:
-- Data preparation and feature engineering
-- Comparison of multiple ML algorithms
-- Optimization with Hyperopt
+- Data preparation and feature engineering  
+- Comparison of multiple ML algorithms  
+- Optimization with Hyperopt  
 - Automated model selection with AutoGluon  
-It serves as a template for scalable and automated regression modeling in Python.
+
+It serves as a **scalable and reproducible template** for rainfall prediction and similar environmental forecasting tasks in Python.
 
 ---
 
 ## 📜 Author
 **Krisna Bayu Dharma Putra**  
-📧 [linkedin.com/in/dharma-putra1305](https://linkedin.com/in/dharma-putra1305)
+📧 [linkedin.com/in/dharma-putra1305](https://linkedin.com/in/dharma-putra1305)  
+🌐 [github.com/kbdp1305](https://github.com/kbdp1305)
